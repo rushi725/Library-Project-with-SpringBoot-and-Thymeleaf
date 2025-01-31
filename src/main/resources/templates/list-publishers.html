@@ -35,7 +35,7 @@
         <tbody>
         <tr th:each="tempPublisher : ${publishers}">
 
-            <td th:text="${tempPublisher.publisher_name}"></td>
+            <td th:text="${tempPublisher.publisherName}"></td>
             <td th:text="${tempPublisher.description}"></td>
             <td>
                 <div sec:authorize="hasAnyRole('USER', 'ADMIN')">

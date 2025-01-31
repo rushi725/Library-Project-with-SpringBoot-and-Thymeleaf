@@ -19,25 +19,25 @@
         <!-- Add hidden form field to handle update -->
         <input type="hidden" th:field="*{id}" />
 Book Name:
-        <input type="text" th:field="*{book_name}"
-               class="form-control mb-4 col-4" placeholder="Book name">
+        <input type="text" field="*{book_name}" name = "bookName"
+             class="form-control mb-4 col-4" placeholder="Book name">
 
-        <input type="text" th:field="*{book_subname}"
+        <input type="text" field="*{book_subname}" name = "bookSubname"
                class="form-control mb-4 col-4" placeholder="Book subname">
 
-        <input type="text" th:field="*{serial_name}"
+        <input type="text" field="*{serial_name}" name = "serialName"
                class="form-control mb-4 col-4" placeholder="Serial Name">
 
-        <input type="text" th:field="*{books_author}"
+        <input type="text" field="*{books_author}" name = "booksAuthor"
                class="form-control mb-4 col-4" placeholder="Book's Author">
 
-        <input type="text" th:field="*{books_publisher}"
+        <input type="text" field="*{books_publisher}" name = "booksPublisher"
                class="form-control mb-4 col-4" placeholder="Publisher">
 
-        <input type="text" th:field="*{description}"
+        <input type="text" field="*{description}" name = "description"
                class="form-control mb-4 col-4" placeholder="Description">
 
-        <input type="text" th:field="*{isbn}"
+        <input type="text" field="*{isbn}" name = "isbn"
                class="form-control mb-4 col-4" placeholder="ISBN">
 
         <button type="submit" class="btn btn-info col-2">Save</button>
